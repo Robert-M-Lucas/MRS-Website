@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run",
+            "command": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "type": "process",
+            "args": [
+                "${workspaceFolder}\\index.html"],
+            "group": {
+                "isDefault": true
+            }
+        }
+    ]
+}
